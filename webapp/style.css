@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+.section_zero {
+    position: relative;
+}
+
+.section_zero_content {
+    position: absolute;
+    width: 1600px;
+}
+
+.section_zero .header {
+    position: absolute;
+    width: 1600px;
+    height: 159px;
+}
+
+.section_zero .header .buttons_panel {
+    display: flex;
+    height: 102px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+}
+
+.section_zero .header .buttons_panel .logo {
+    margin-top: 41px;
+    margin-right: 214px;
+    margin-left: 179px;
+    border-top: 2px solid transparent;
+    color: White;
+    font-family: 'Yeseva One', serif;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.section_zero .header .buttons_panel .button {
+    padding-top: 41px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 16px;
+    margin-left: 15px;
+    border-top: 2px solid transparent;
+    color: White;
+    transition: 0.25s;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 21px;
+    line-height: 36px;
+}
+
+.section_zero .header .buttons_panel .button:hover {
+    border-top: 2px solid White;
+}
+
+.section_zero .header .buttons_panel .icon {
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid transparent;
+    color: #e8b42e;
+    transition: 0.25s;
+    font-size: 21px;
+    line-height: 36px;
+}
+
+.section_zero .header .buttons_panel .icon a {
+    color: #e8b42e;
+    transition: 0.25s;
+}
+
+.section_zero .header .buttons_panel .icon:hover,
+.section_zero .header .buttons_panel .icon a:hover {
+    color: White;
+}
+
+.section_zero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 261px 77px 57px;
+    grid-auto-columns: 1fr;
+    gap: 0 0;
+    grid-auto-flow: row;
+    grid-template-areas:
+	"title title"
+	"separator separator"
+	"button-1 button-2";
+    text-align: center;
+    color: White;
+    padding-top: 50px;
+}
+
+.section_zero .container .title {
+    grid-area: title;
+    font-family: 'Yeseva One', serif;
+    font-size: 90px;
+    line-height: 118px;
+}
+
+.section_zero .container .separator {
+    grid-area: separator;
+}
+
+.section_zero .container [class^="button"] {
+    font-family: 'Lato', serif;
+    font-size: 18px;
+    line-height: 18px;
+    transition: 0.25s;
+}
+
+.section_zero .container .button_1 {
+    padding-top: 20px;
+    grid-area: button-1;
+    margin-right: 16px;
+    margin-left: auto;
+    line-height: 18px;
+    background: rgba(0, 0, 0, 0.56);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 228px;
+}
+
+.section_zero .container .button_2 {
+    padding-top: 19px;
+    grid-area: button-2;
+    margin-left: 14px;
+    background: rgba(255, 255, 255, 0.196);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    width: 226px;
+}
+
+.section_zero .container .button_1:hover {
+    background: rgba(0, 0, 0, 0.76);
+}
+
+.section_zero .container .button_2:hover {
+    background: rgba(255, 255, 255, 0.396);
+}
