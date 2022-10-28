@@ -136,52 +136,138 @@
 }
 
 .section_one {
-	position: relative;
+    position: relative;
 }
+
 .section_one_content {
-	position: absolute;
-	width: 1600px;
+    position: absolute;
+    width: 1600px;
 }
+
 .section_one .container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 100px 51px 169px 289px;
-	grid-auto-columns: 1fr;
-	gap: 0 0;
-	grid-auto-flow: row;
-	grid-template-areas:
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 51px 169px 289px;
+    grid-auto-columns: 1fr;
+    gap: 0 0;
+    grid-auto-flow: row;
+    grid-template-areas:
 	"header photo"
 	"separator photo"
 	"content photo"
 	"finish photo";
-	font-size: 16px;
+    font-size: 16px;
     font-family: 'Lato', serif;
-	line-height: 24px;
-	margin-top: 55px;
-	margin-left: 260px;
-	margin-right: 240px;
-	text-align: center;
+    line-height: 24px;
+    margin-top: 55px;
+    margin-left: 260px;
+    margin-right: 240px;
+    text-align: center;
 }
 
 .section_one .container .photo {
-	grid-area: photo;
+    grid-area: photo;
 }
+
 .section_one .container .header {
     font-family: 'Yeseva One', serif;
-	color: #DD9A00;
-	font-size: 36px;
-	grid-area: header;
-	margin-top: 54px;
+    color: #DD9A00;
+    font-size: 36px;
+    grid-area: header;
+    margin-top: 54px;
 }
+
 .section_one .container .separator {
-	grid-area: separator;
+    grid-area: separator;
 }
+
 .section_one .container .content {
-	grid-area: content;
+    grid-area: content;
 }
+
 .section_one .container .finish {
-	grid-area: finish;
+    grid-area: finish;
 }
+
 .section_one .container .finish img {
-	margin-left: 69px;
+    margin-left: 69px;
+}
+
+.section_two {
+    position: relative;
+}
+
+.section_two_content {
+    position: absolute;
+    width: 1600px;
+}
+
+.section_two .container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 48px 48px 188px 188px;
+    gap: 0 0;
+    grid-template-areas:
+	"header header header"
+	"separator separator separator"
+	"content content content"
+	"finish_one finish_two finish_three";
+    font-size: 16px;
+    font-family: 'Lato', serif;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 85px;
+    width: 570px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 215px;
+    background: rgba(0, 0, 0, 0.5);
+    color: White;
+}
+
+.section_two .header {
+    grid-area: header;
+    font-family: Yeseva One, serif;
+    font-size: 36px;
+}
+
+.section_two .separator {
+    grid-area: separator;
+}
+
+.section_two .content {
+    grid-area: content;
+}
+
+.section_two .finish_one {
+    grid-area: finish_one;
+}
+
+.section_two .finish_two {
+    grid-area: finish_two;
+}
+
+.section_two .finish_three {
+    grid-area: finish_three;
+}
+
+.section_two .finish_three img {
+    margin-right: 90px;
+}
+
+.section_two .finish_one img {
+    margin-left: 90px;
+}
+
+.section_one > img {
+    height: 750px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.section_two > img {
+    height: 758px;
+    object-fit: cover;
+    object-position: 100% 0;
 }
