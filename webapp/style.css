@@ -271,3 +271,218 @@
     object-fit: cover;
     object-position: 100% 0;
 }
+
+.section_three {
+    position: relative;
+}
+
+.section_three_content {
+    position: absolute;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section_three .column_right {
+    flex: 1;
+}
+
+.section_three .column_left {
+    flex: 1;
+}
+
+.section_three .container_lower_right {
+    padding-right: 285px;
+    padding-top: 30px;
+    padding-left: 85px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px 42px 55px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header"
+        "separator separator"
+        "name_one price_one"
+        "desc_one desc_one"
+        "spec spec"
+        "name_two price_two"
+        "desc_two desc_two"
+        "name_three price_three"
+        "desc_three desc_three"
+        "name_four price_four"
+        "desc_four desc_four";
+}
+
+.section_three .container_lower_left {
+    padding-left: 285px;
+    padding-top: 30px;
+    padding-right: 85px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header"
+        "separator separator"
+        "name_one price_one"
+        "desc_one desc_one"
+        "spec spec"
+        "name_two price_two"
+        "desc_two desc_two"
+        "name_three price_three"
+        "desc_three desc_three";
+}
+
+.section_three .container_upper_left {
+    padding-left: 285px;
+    padding-top: 100px;
+    padding-right: 85px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 59px 50px 42px 55px 42px 55px 42px 55px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header"
+        "separator separator"
+        "name_one price_one"
+        "desc_one desc_one"
+        "name_two price_two"
+        "desc_two desc_two"
+        "name_three price_three"
+        "desc_three desc_three";
+}
+
+.section_three .container_upper_right {
+    padding-right: 285px;
+    padding-top: 100px;
+    padding-left: 85px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 59px 50px 42px 55px 42px 55px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header"
+        "separator separator"
+        "name_one price_one"
+        "desc_one desc_one"
+        "name_two price_two"
+        "desc_two desc_two";
+}
+
+.section_three .header {
+    font-family: 'Yeseva One';
+    font-size: 36px !important;
+    color: #dd9a00;
+    width: 100%;
+    text-align: center;
+    grid-area: header;
+}
+
+.section_three .separator {
+    grid-area: separator;
+    display: flex;
+    justify-content: center;
+}
+
+.section_three .spec {
+    grid-area: spec;
+    color: White;
+    text-align: right;
+    font-family: Lato;
+    font-size: 14px !important;
+}
+
+.section_three .name_one {
+    grid-area: name_one;
+    font-family: 'Yeseva One';
+    font-size: 21px !important;
+    color: #dd9a00;
+}
+
+.section_three .price_one {
+    grid-area: price_one;
+    text-align: right;
+    font-family: 'Yeseva One';
+    font-size: 21px !important;
+    color: #dd9a00;
+}
+
+.section_three .desc_one {
+    grid-area: desc_one;
+    font-family: 'Lato';
+    font-size: 16px !important;
+}
+
+.section_three .name_two {
+    grid-area: name_two;
+    font-family: 'Yeseva One';
+    font-size: 21px !important;
+    color: #dd9a00;
+}
+
+.section_three .price_two {
+    grid-area: price_two;
+    text-align: right;
+    font-family: 'Yeseva One';
+    font-size: 21px !important;
+    color: #dd9a00;
+}
+
+.section_three .desc_two {
+    grid-area: desc_two;
+    font-family: 'Lato';
+    font-size: 16px !important;
+}
+
+.section_three .name_three {
+    grid-area: name_three;
+    font-family: 'Yeseva One';
+    font-size: 21px !important;
+    color: #dd9a00;
+}
+
+.section_three .price_three {
+    grid-area: price_three;
+    text-align: right;
+    font-family: 'Yeseva One';
+    font-size: 21px !important;
+    color: #dd9a00;
+}
+
+.section_three .desc_three {
+    grid-area: desc_three;
+    font-family: 'Lato';
+    font-size: 16px !important;
+}
+
+.section_three .name_four {
+    grid-area: name_four;
+    font-family: 'Yeseva One';
+    font-size: 21px !important;
+    color: #dd9a00;
+}
+
+.section_three .price_four {
+    grid-area: price_four;
+    text-align: right;
+    font-family: 'Yeseva One';
+    font-size: 21px !important;
+    color: #dd9a00;
+}
+
+.section_three .desc_four {
+    grid-area: desc_four;
+    font-family: 'Lato';
+    font-size: 16px !important;
+}
+
+.spec img {
+    position: relative;
+}
+
+.spec span {
+    position: absolute;
+    margin-right: 10px;
+}
