@@ -172,7 +172,6 @@
     background: rgba(255, 255, 255, 0.396);
 }
 
-/*** SECTION 1 ***/
 .section-1 {
     position: relative;
 }
@@ -231,7 +230,6 @@
     margin-left: 69px;
 }
 
-/*** SECTION 2 ***/
 .section-2 {
     position: relative;
 }
@@ -299,7 +297,6 @@
     margin-left: 90px;
 }
 
-/*** SECTION 3 ***/
 .section-3 {
     position: relative;
 }
@@ -519,7 +516,6 @@
     background-size: cover;
 }
 
-/*** SECTION 4 ***/
 .section-4 {
     position: relative;
 }
@@ -586,7 +582,6 @@
     margin-top: 288px;
 }
 
-/**SECTION 5**/
 .section-5 {
     position: relative;
 }
@@ -647,7 +642,6 @@
     line-height: 24px;
 }
 
-/*** USER ORDER FORM ***/
 .section-5 .container-user {
     grid-area: container-user;
     padding-left: 70px;
@@ -728,7 +722,6 @@ select {
     margin-top: 22px;
 }
 
-/*** FOOTER ***/
 .footer {
     position: relative;
 }
@@ -778,7 +771,6 @@ select {
     font-weight: 700 !important;
 }
 
-/*** BACKGROUNDS ***/
 .section-0 > img {
     height: 750px;
     object-fit: cover;
