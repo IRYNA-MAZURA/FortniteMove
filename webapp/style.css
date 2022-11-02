@@ -1,21 +1,48 @@
 @charset "UTF-8";
 
-.section_zero {
+/*** ORDER SUCCESS ***/
+.section-0 .buttonBack {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0px auto;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 18px;
+    transition: 0.25s;
+    color: white;
+    transition: 0.25s;
+    background: rgba(255, 255, 255, 0.196);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    width: 226px;
+}
+
+.section-0 .buttonBack a {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+
+.section-0 .buttonBack:hover {
+    background: rgba(255, 255, 255, 0.396);
+}
+
+/*** SECTION 0 ***/
+.section-0 {
     position: relative;
 }
 
-.section_zero_content {
+.section-0-content {
     position: absolute;
     width: 1600px;
 }
 
-.section_zero .header {
+.section-0 .header {
     position: absolute;
     width: 1600px;
     height: 159px;
 }
 
-.section_zero .header .buttons_panel {
+.section-0 .header .buttons-panel {
     display: flex;
     height: 102px;
     margin-left: auto;
@@ -23,18 +50,18 @@
     width: 1600px;
 }
 
-.section_zero .header .buttons_panel .logo {
+.section-0 .header .buttons-panel .logo {
     margin-top: 41px;
     margin-right: 214px;
     margin-left: 179px;
     border-top: 2px solid transparent;
     color: White;
-    font-family: 'Yeseva One', serif;
+    font-family: 'Yeseva One';
     font-size: 36px;
     line-height: 36px;
 }
 
-.section_zero .header .buttons_panel .button {
+.section-0 .header .buttons-panel .button {
     padding-top: 41px;
     padding-right: 10px;
     padding-left: 10px;
@@ -43,16 +70,21 @@
     border-top: 2px solid transparent;
     color: White;
     transition: 0.25s;
-    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Gentium Book Basic';
     font-size: 21px;
     line-height: 36px;
 }
 
-.section_zero .header .buttons_panel .button:hover {
+.section-0 .header .buttons-panel .button:hover {
     border-top: 2px solid White;
 }
 
-.section_zero .header .buttons_panel .icon {
+.section-0 .header .buttons-panel .button a {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+
+.section-0 .header .buttons-panel .icon {
     margin-top: 40px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -63,101 +95,109 @@
     line-height: 36px;
 }
 
-.section_zero .header .buttons_panel .icon a {
+.section-0 .header .buttons-panel .icon a {
     color: #e8b42e;
     transition: 0.25s;
 }
 
-.section_zero .header .buttons_panel .icon:hover,
-.section_zero .header .buttons_panel .icon a:hover {
+.section-0 .header .buttons-panel .icon:hover,
+.section-0 .header .buttons-panel .icon a:hover {
     color: White;
 }
 
-.section_zero .container {
+.section-0 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 261px 77px 57px;
     grid-auto-columns: 1fr;
-    gap: 0 0;
+    gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-	"title title"
-	"separator separator"
-	"button-1 button-2";
+		"title title"
+		"separator separator"
+		"button-1 button-2";
     text-align: center;
     color: White;
     padding-top: 50px;
 }
 
-.section_zero .container .title {
+.section-0 .container .title {
     grid-area: title;
-    font-family: 'Yeseva One', serif;
+    font-family: 'Yeseva One';
     font-size: 90px;
     line-height: 118px;
 }
 
-.section_zero .container .separator {
+.section-0 .container .separator {
     grid-area: separator;
 }
 
-.section_zero .container [class^="button"] {
-    font-family: 'Lato', serif;
+.section-0 .container [class^="button"] {
+    font-family: 'Lato';
     font-size: 18px;
     line-height: 18px;
     transition: 0.25s;
 }
 
-.section_zero .container .button_1 {
+.section-0 .container .button-1 {
     padding-top: 20px;
     grid-area: button-1;
     margin-right: 16px;
     margin-left: auto;
     line-height: 18px;
     background: rgba(0, 0, 0, 0.56);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 1px solid #rgba(0, 0, 0, 0.8);
     width: 228px;
 }
 
-.section_zero .container .button_2 {
+.section-0 .container .button-2 {
     padding-top: 19px;
     grid-area: button-2;
+    padding-top: 19px;
     margin-left: 14px;
     background: rgba(255, 255, 255, 0.196);
     border: 1px solid rgba(255, 255, 255, 0.7);
     width: 226px;
 }
 
-.section_zero .container .button_1:hover {
+.section-0 .container .button-1 a,
+.section-0 .container .button-2 a {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+
+.section-0 .container .button-1:hover {
     background: rgba(0, 0, 0, 0.76);
 }
 
-.section_zero .container .button_2:hover {
+.section-0 .container .button-2:hover {
     background: rgba(255, 255, 255, 0.396);
 }
 
-.section_one {
+/*** SECTION 1 ***/
+.section-1 {
     position: relative;
 }
 
-.section_one_content {
+.section-1-content {
     position: absolute;
     width: 1600px;
 }
 
-.section_one .container {
+.section-1 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 51px 169px 289px;
     grid-auto-columns: 1fr;
-    gap: 0 0;
+    gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-	"header photo"
-	"separator photo"
-	"content photo"
-	"finish photo";
+		"header photo"
+		"separator photo"
+		"content photo"
+		"finish photo";
     font-size: 16px;
-    font-family: 'Lato', serif;
+    font-family: 'Lato';
     line-height: 24px;
     margin-top: 55px;
     margin-left: 260px;
@@ -165,56 +205,57 @@
     text-align: center;
 }
 
-.section_one .container .photo {
+.section-1 .container .photo {
     grid-area: photo;
 }
 
-.section_one .container .header {
-    font-family: 'Yeseva One', serif;
+.section-1 .container .header {
+    font-family: 'Yeseva One' !important;
     color: #DD9A00;
     font-size: 36px;
     grid-area: header;
     margin-top: 54px;
 }
 
-.section_one .container .separator {
+.section-1 .container .separator {
     grid-area: separator;
 }
 
-.section_one .container .content {
+.section-1 .container .content {
     grid-area: content;
 }
 
-.section_one .container .finish {
+.section-1 .container .finish {
     grid-area: finish;
 }
 
-.section_one .container .finish img {
+.section-1 .container .finish img {
     margin-left: 69px;
 }
 
-.section_two {
+/*** SECTION 2 ***/
+.section-2 {
     position: relative;
 }
 
-.section_two_content {
+.section-2-content {
     position: absolute;
     width: 1600px;
 }
 
-.section_two .container {
+.section-2 .container {
     display: grid;
     grid-auto-columns: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 48px 48px 188px 188px;
-    gap: 0 0;
+    gap: 0px 0px;
     grid-template-areas:
-	"header header header"
-	"separator separator separator"
-	"content content content"
-	"finish_one finish_two finish_three";
+		"header header header"
+		"separator separator separator"
+		"content content content"
+		"finish-1 finish-2 finish-3";
     font-size: 16px;
-    font-family: 'Lato', serif;
+    font-family: 'Lato';
     line-height: 24px;
     text-align: center;
     padding-top: 85px;
@@ -226,57 +267,46 @@
     color: White;
 }
 
-.section_two .header {
+.section-2 .header {
     grid-area: header;
-    font-family: Yeseva One, serif;
-    font-size: 36px;
+    font-family: Yeseva One;
+    font-size: 36px !important;
 }
 
-.section_two .separator {
+.section-2 .separator {
     grid-area: separator;
 }
 
-.section_two .content {
+.section-2 .content {
     grid-area: content;
 }
 
-.section_two .finish_one {
-    grid-area: finish_one;
+.section-2 .finish-1 {
+    grid-area: finish-1;
 }
 
-.section_two .finish_two {
-    grid-area: finish_two;
+.section-2 .finish-2 {
+    grid-area: finish-2;
 }
 
-.section_two .finish_three {
-    grid-area: finish_three;
+.section-2 .finish-3 {
+    grid-area: finish-3;
 }
 
-.section_two .finish_three img {
+.section-2 .finish-3 img {
     margin-right: 90px;
 }
 
-.section_two .finish_one img {
+.section-2 .finish-1 img {
     margin-left: 90px;
 }
 
-.section_one > img {
-    height: 750px;
-    object-fit: cover;
-    object-position: 100% 0;
-}
-
-.section_two > img {
-    height: 758px;
-    object-fit: cover;
-    object-position: 100% 0;
-}
-
-.section_three {
+/*** SECTION 3 ***/
+.section-3 {
     position: relative;
 }
 
-.section_three_content {
+.section-3-content {
     position: absolute;
     width: 1600px;
     display: flex;
@@ -285,15 +315,15 @@
     flex-wrap: wrap;
 }
 
-.section_three .column_right {
+.section-3 .column-right {
     flex: 1;
 }
 
-.section_three .column_left {
+.section-3 .column-left {
     flex: 1;
 }
 
-.section_three .container_lower_right {
+.section-3 .container-lower-right {
     padding-right: 285px;
     padding-top: 30px;
     padding-left: 85px;
@@ -302,20 +332,20 @@
     grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px 42px 55px;
     gap: 0px 0px;
     grid-template-areas:
-        "header header"
-        "separator separator"
-        "name_one price_one"
-        "desc_one desc_one"
-        "spec spec"
-        "name_two price_two"
-        "desc_two desc_two"
-        "name_three price_three"
-        "desc_three desc_three"
-        "name_four price_four"
-        "desc_four desc_four";
+		"header header"
+		"separator separator"
+		"name-1 price-1"
+		"desc-1 desc-1"
+		"spec spec"
+		"name-2 price-2"
+		"desc-2 desc-2"
+		"name-3 price-3"
+		"desc-3 desc-3"
+		"name-4 price-4"
+		"desc-4 desc-4";
 }
 
-.section_three .container_lower_left {
+.section-3 .container-lower-left {
     padding-left: 285px;
     padding-top: 30px;
     padding-right: 85px;
@@ -324,18 +354,18 @@
     grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px;
     gap: 0px 0px;
     grid-template-areas:
-        "header header"
-        "separator separator"
-        "name_one price_one"
-        "desc_one desc_one"
-        "spec spec"
-        "name_two price_two"
-        "desc_two desc_two"
-        "name_three price_three"
-        "desc_three desc_three";
+		"header header"
+		"separator separator"
+		"name-1 price-1"
+		"desc-1 desc-1"
+		"spec spec"
+		"name-2 price-2"
+		"desc-2 desc-2"
+		"name-3 price-3"
+		"desc-3 desc-3";
 }
 
-.section_three .container_upper_left {
+.section-3 .container-upper-left {
     padding-left: 285px;
     padding-top: 100px;
     padding-right: 85px;
@@ -344,17 +374,17 @@
     grid-template-rows: 59px 50px 42px 55px 42px 55px 42px 55px;
     gap: 0px 0px;
     grid-template-areas:
-        "header header"
-        "separator separator"
-        "name_one price_one"
-        "desc_one desc_one"
-        "name_two price_two"
-        "desc_two desc_two"
-        "name_three price_three"
-        "desc_three desc_three";
+		"header header"
+		"separator separator"
+		"name-1 price-1"
+		"desc-1 desc-1"
+		"name-2 price-2"
+		"desc-2 desc-2"
+		"name-3 price-3"
+		"desc-3 desc-3";
 }
 
-.section_three .container_upper_right {
+.section-3 .container-upper-right {
     padding-right: 285px;
     padding-top: 100px;
     padding-left: 85px;
@@ -363,15 +393,15 @@
     grid-template-rows: 59px 50px 42px 55px 42px 55px;
     gap: 0px 0px;
     grid-template-areas:
-        "header header"
-        "separator separator"
-        "name_one price_one"
-        "desc_one desc_one"
-        "name_two price_two"
-        "desc_two desc_two";
+		"header header"
+		"separator separator"
+		"name-1 price-1"
+		"desc-1 desc-1"
+		"name-2 price-2"
+		"desc-2 desc-2";
 }
 
-.section_three .header {
+.section-3 .header {
     font-family: 'Yeseva One';
     font-size: 36px !important;
     color: #dd9a00;
@@ -380,109 +410,396 @@
     grid-area: header;
 }
 
-.section_three .separator {
+.section-3 .separator {
     grid-area: separator;
     display: flex;
     justify-content: center;
 }
 
-.section_three .spec {
-    grid-area: spec;
+.section-3 .spec {
+    grid-area: spec / name-2 / price-2 / desc-2;
     color: White;
     text-align: right;
     font-family: Lato;
     font-size: 14px !important;
 }
 
-.section_three .name_one {
-    grid-area: name_one;
+.section-3 .name-1 {
+    grid-area: name-1;
     font-family: 'Yeseva One';
     font-size: 21px !important;
     color: #dd9a00;
 }
 
-.section_three .price_one {
-    grid-area: price_one;
+.section-3 .price-1 {
+    grid-area: price-1;
     text-align: right;
     font-family: 'Yeseva One';
     font-size: 21px !important;
     color: #dd9a00;
 }
 
-.section_three .desc_one {
-    grid-area: desc_one;
+.section-3 .desc-1 {
+    grid-area: desc-1;
     font-family: 'Lato';
     font-size: 16px !important;
 }
 
-.section_three .name_two {
-    grid-area: name_two;
+.section-3 .name-2 {
+    grid-area: name-2;
     font-family: 'Yeseva One';
     font-size: 21px !important;
     color: #dd9a00;
 }
 
-.section_three .price_two {
-    grid-area: price_two;
+.section-3 .price-2 {
+    grid-area: price-2;
     text-align: right;
     font-family: 'Yeseva One';
     font-size: 21px !important;
     color: #dd9a00;
 }
 
-.section_three .desc_two {
-    grid-area: desc_two;
+.section-3 .desc-2 {
+    grid-area: desc-2;
     font-family: 'Lato';
     font-size: 16px !important;
 }
 
-.section_three .name_three {
-    grid-area: name_three;
+.section-3 .name-3 {
+    grid-area: name-3;
     font-family: 'Yeseva One';
     font-size: 21px !important;
     color: #dd9a00;
 }
 
-.section_three .price_three {
-    grid-area: price_three;
+.section-3 .price-3 {
+    grid-area: price-3;
     text-align: right;
     font-family: 'Yeseva One';
     font-size: 21px !important;
     color: #dd9a00;
 }
 
-.section_three .desc_three {
-    grid-area: desc_three;
+.section-3 .desc-3 {
+    grid-area: desc-3;
     font-family: 'Lato';
     font-size: 16px !important;
 }
 
-.section_three .name_four {
-    grid-area: name_four;
+.section-3 .name-4 {
+    grid-area: name-4;
     font-family: 'Yeseva One';
     font-size: 21px !important;
     color: #dd9a00;
 }
 
-.section_three .price_four {
-    grid-area: price_four;
+.section-3 .price-4 {
+    grid-area: price-4;
     text-align: right;
     font-family: 'Yeseva One';
     font-size: 21px !important;
     color: #dd9a00;
 }
 
-.section_three .desc_four {
-    grid-area: desc_four;
+.section-3 .desc-4 {
+    grid-area: desc-4;
     font-family: 'Lato';
     font-size: 16px !important;
 }
 
-.spec img {
+.section-3 .spec {
+    height: 96px;
+    background-image: url(./sus/s-3-tag.png);
+    background-size: cover;
+}
+
+.section-3 [class^="desc"] {
+    height: 1px;
+    background-image: url(./sus/s-3-line.png);
+    background-size: cover;
+}
+
+/*** SECTION 4 ***/
+.section-4 {
     position: relative;
 }
 
-.spec span {
+.section-4-content {
     position: absolute;
-    margin-right: 10px;
+    width: 1600px;
+}
+
+.section-4 .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 52px 49px 246px 135px;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+		"header"
+		"separator"
+		"content"
+		"finish";
+    font-size: 25px;
+    color: #dde1e0;
+    font-family: 'Gentium Book Basic';
+    line-height: 45px;
+    text-align: center;
+    padding-top: 75px;
+    background: rgba(0, 0, 0, 0.8);
+    width: 770px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    color: White;
+}
+
+.section-4 .header {
+    grid-area: header;
+    font-family: 'Yeseva One';
+    font-size: 36px !important;
+}
+
+.section-4 .separator {
+    grid-area: separator;
+}
+
+.section-4 .content {
+    grid-area: content;
+}
+
+.section-4 .finish {
+    font-family: 'Lato';
+    font-size: 18px;
+    color: White;
+    grid-area: finish;
+}
+
+.section-4 .quote {
+    position: absolute;
+    font-family: 'Georgia';
+    font-size: 96px;
+    line-height: 40px !important;
+    color: #a1a29c;
+    margin-left: 443px;
+    margin-top: 288px;
+}
+
+/**SECTION 5**/
+.section-5 {
+    position: relative;
+}
+
+.section-5-content {
+    position: absolute;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-5 .container {
+    padding-top: 98px;
+    padding-left: 214px;
+    padding-right: 214px;
+    display: grid;
+    grid-template-columns: 300px 300px 1fr;
+    grid-template-rows: 55px 50px 81px 89px 252px;
+    gap: 0px 0px 0px 0px;
+    grid-template-areas:
+		"image1 image2 header"
+		"image1 image2 separator"
+		"image1 image2 description1"
+		"image1 image2 description2"
+		"image1 image2 container-user"
+}
+
+.section-5 .header {
+    font-family: 'Yeseva One';
+    font-size: 36px !important;
+    color: #dd9a00;
+    width: 100%;
+    text-align: center;
+    grid-area: header;
+}
+
+.section-5 .separator {
+    grid-area: separator;
+    display: flex;
+    justify-content: center;
+}
+
+.section-5 .description1 {
+    text-align: center;
+    grid-area: description1;
+    font-family: 'Lato';
+    font-size: 16px !important;
+    line-height: 24px;
+}
+
+.section-5 .description2 {
+    text-align: center;
+    grid-area: description2;
+    font-family: 'Lato';
+    font-size: 16px !important;
+    line-height: 24px;
+}
+
+/*** USER ORDER FORM ***/
+.section-5 .container-user {
+    grid-area: container-user;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.section-5 .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-5 form .user-details span.details {
+    display: block;
+    font-weight: bold;
+    font-family: 'Lato';
+    color: #d8a21d;
+    margin-bottom: 5px;
+}
+
+.section-5 .user-details input,
+.section-5 .user-details select {
+    outline: none;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    height: 33px;
+    font-style: italic;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    color: Grey;
+    background: rgba(255, 255, 255, 0.4);
+    transition: 0.25s;
+}
+
+.section-5 .user-details input:hover,
+.section-5 .user-details select:hover {
+    border: 1px solid #d8a21d;
+}
+
+.section-5 .user-details select {
+    height: 37px !important;
+}
+
+.section-5 .input-box,
+.input-box input {
+    width: 182px;
+}
+
+.section-5 .input-box,
+select {
+    width: 200px;
+}
+
+.section-5 .button {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.section-5 .button input {
+    border: none;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    cursor: pointer;
+    background: #d8a21d;
+    transition: 0.25s;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.section-5 .button input:hover {
+    background: #e7bc4d;
+}
+
+.section-5 .input-box {
+    margin-top: 22px;
+}
+
+/*** FOOTER ***/
+.footer {
+    position: relative;
+}
+
+.footer-content {
+    position: absolute;
+    width: 1600px;
+}
+
+.footer i {
+    margin-right: 7px;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 37px 96px 20px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+		"header-1 header-2 header-3"
+		"separator-1 separator-2 separator-3"
+		"content-1 content-2 content-3"
+		"finish-1 finish-2 finish3";
+    color: White;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 57px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.footer .container a {
+    color: White;
+}
+
+.footer .container [class^="header"] {
+    font-family: 'Yeseva One';
+    font-size: 21px !important;
+}
+
+.footer .container .bold-font {
+    font-family: 'Open Sans';
+    font-weight: 700 !important;
+}
+
+/*** BACKGROUNDS ***/
+.section-0 > img {
+    height: 750px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.section-2 > img {
+    height: 758px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.section-4 > img {
+    height: 758px;
+    object-fit: cover;
+    object-position: 22% 78%;
+}
+
+.footer > img {
+    height: 320px;
+    object-fit: cover;
+    object-position: 100% 0;
 }
