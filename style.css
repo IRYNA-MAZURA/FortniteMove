@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/*** ORDER SUCCESS ***/
 .section-0 .buttonBack {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -26,7 +25,6 @@
     background: rgba(255, 255, 255, 0.396);
 }
 
-/*** SECTION 0 ***/
 .section-0 {
     position: relative;
 }
@@ -510,13 +508,14 @@
 
 .section-3 .spec {
     height: 96px;
-    background-image: url(./sus/s-3-tag.png);
+    background-image: url(s-3-tag.png);
     background-size: cover;
 }
 
 .section-3 [class^="desc"] {
     height: 1px;
-    background-image: url(./sus/s-3-line.png);
+    background-image: url(s-3-line.png);
+    background-image: url(s-3-line.png);
     background-size: cover;
 }
 
@@ -608,7 +607,7 @@
     display: grid;
     grid-template-columns: 300px 300px 1fr;
     grid-template-rows: 55px 50px 81px 89px 252px;
-    gap: 0px 0px 0px 0px;
+    gap: 0px 0px;
     grid-template-areas:
 		"image1 image2 header"
 		"image1 image2 separator"
