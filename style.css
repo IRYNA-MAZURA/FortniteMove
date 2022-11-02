@@ -4,13 +4,12 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    margin: 0px auto;
-    font-family: 'Lato';
+    margin: 0 auto;
+    font-family: "Lato", serif;
     font-size: 18px;
     line-height: 18px;
     transition: 0.25s;
     color: white;
-    transition: 0.25s;
     background: rgba(255, 255, 255, 0.196);
     border: 1px solid rgba(255, 255, 255, 0.7);
     width: 226px;
@@ -54,7 +53,7 @@
     margin-left: 179px;
     border-top: 2px solid transparent;
     color: White;
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 36px;
     line-height: 36px;
 }
@@ -68,7 +67,7 @@
     border-top: 2px solid transparent;
     color: White;
     transition: 0.25s;
-    font-family: 'Gentium Book Basic';
+    font-family: "Gentium Book Basic", serif;
     font-size: 21px;
     line-height: 36px;
 }
@@ -108,12 +107,12 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 261px 77px 57px;
     grid-auto-columns: 1fr;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-auto-flow: row;
     grid-template-areas:
-		"title title"
-		"separator separator"
-		"button-1 button-2";
+    "title title"
+    "separator separator"
+    "button-1 button-2";
     text-align: center;
     color: White;
     padding-top: 50px;
@@ -121,7 +120,7 @@
 
 .section-0 .container .title {
     grid-area: title;
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 90px;
     line-height: 118px;
 }
@@ -131,7 +130,7 @@
 }
 
 .section-0 .container [class^="button"] {
-    font-family: 'Lato';
+    font-family: "Lato", serif;
     font-size: 18px;
     line-height: 18px;
     transition: 0.25s;
@@ -144,14 +143,13 @@
     margin-left: auto;
     line-height: 18px;
     background: rgba(0, 0, 0, 0.56);
-    border: 1px solid #rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
     width: 228px;
 }
 
 .section-0 .container .button-2 {
     padding-top: 19px;
     grid-area: button-2;
-    padding-top: 19px;
     margin-left: 14px;
     background: rgba(255, 255, 255, 0.196);
     border: 1px solid rgba(255, 255, 255, 0.7);
@@ -186,15 +184,15 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 51px 169px 289px;
     grid-auto-columns: 1fr;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-auto-flow: row;
     grid-template-areas:
-		"header photo"
-		"separator photo"
-		"content photo"
-		"finish photo";
+    "header photo"
+    "separator photo"
+    "content photo"
+    "finish photo";
     font-size: 16px;
-    font-family: 'Lato';
+    font-family: "Lato", serif;
     line-height: 24px;
     margin-top: 55px;
     margin-left: 260px;
@@ -207,8 +205,8 @@
 }
 
 .section-1 .container .header {
-    font-family: 'Yeseva One' !important;
-    color: #DD9A00;
+    font-family: "Yeseva One", serif !important;
+    color: #dd9a00;
     font-size: 36px;
     grid-area: header;
     margin-top: 54px;
@@ -244,14 +242,14 @@
     grid-auto-columns: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 48px 48px 188px 188px;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-template-areas:
-		"header header header"
-		"separator separator separator"
-		"content content content"
-		"finish-1 finish-2 finish-3";
+    "header header header"
+    "separator separator separator"
+    "content content content"
+    "finish-1 finish-2 finish-3";
     font-size: 16px;
-    font-family: 'Lato';
+    font-family: "Lato", serif;
     line-height: 24px;
     text-align: center;
     padding-top: 85px;
@@ -265,7 +263,7 @@
 
 .section-2 .header {
     grid-area: header;
-    font-family: Yeseva One;
+    font-family: Yeseva One, serif;
     font-size: 36px !important;
 }
 
@@ -325,19 +323,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px 42px 55px;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-template-areas:
-		"header header"
-		"separator separator"
-		"name-1 price-1"
-		"desc-1 desc-1"
-		"spec spec"
-		"name-2 price-2"
-		"desc-2 desc-2"
-		"name-3 price-3"
-		"desc-3 desc-3"
-		"name-4 price-4"
-		"desc-4 desc-4";
+    "header header"
+    "separator separator"
+    "name-1 price-1"
+    "desc-1 desc-1"
+    "spec spec"
+    "name-2 price-2"
+    "desc-2 desc-2"
+    "name-3 price-3"
+    "desc-3 desc-3"
+    "name-4 price-4"
+    "desc-4 desc-4";
 }
 
 .section-3 .container-lower-left {
@@ -347,17 +345,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 59px 50px 42px 35px 20px 42px 55px 42px 55px;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-template-areas:
-		"header header"
-		"separator separator"
-		"name-1 price-1"
-		"desc-1 desc-1"
-		"spec spec"
-		"name-2 price-2"
-		"desc-2 desc-2"
-		"name-3 price-3"
-		"desc-3 desc-3";
+    "header header"
+    "separator separator"
+    "name-1 price-1"
+    "desc-1 desc-1"
+    "spec spec"
+    "name-2 price-2"
+    "desc-2 desc-2"
+    "name-3 price-3"
+    "desc-3 desc-3";
 }
 
 .section-3 .container-upper-left {
@@ -367,16 +365,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 59px 50px 42px 55px 42px 55px 42px 55px;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-template-areas:
-		"header header"
-		"separator separator"
-		"name-1 price-1"
-		"desc-1 desc-1"
-		"name-2 price-2"
-		"desc-2 desc-2"
-		"name-3 price-3"
-		"desc-3 desc-3";
+    "header header"
+    "separator separator"
+    "name-1 price-1"
+    "desc-1 desc-1"
+    "name-2 price-2"
+    "desc-2 desc-2"
+    "name-3 price-3"
+    "desc-3 desc-3";
 }
 
 .section-3 .container-upper-right {
@@ -386,18 +384,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 59px 50px 42px 55px 42px 55px;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-template-areas:
-		"header header"
-		"separator separator"
-		"name-1 price-1"
-		"desc-1 desc-1"
-		"name-2 price-2"
-		"desc-2 desc-2";
+    "header header"
+    "separator separator"
+    "name-1 price-1"
+    "desc-1 desc-1"
+    "name-2 price-2"
+    "desc-2 desc-2";
 }
 
 .section-3 .header {
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 36px !important;
     color: #dd9a00;
     width: 100%;
@@ -415,13 +413,13 @@
     grid-area: spec / name-2 / price-2 / desc-2;
     color: White;
     text-align: right;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 14px !important;
 }
 
 .section-3 .name-1 {
     grid-area: name-1;
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 21px !important;
     color: #dd9a00;
 }
@@ -429,20 +427,20 @@
 .section-3 .price-1 {
     grid-area: price-1;
     text-align: right;
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 21px !important;
     color: #dd9a00;
 }
 
 .section-3 .desc-1 {
     grid-area: desc-1;
-    font-family: 'Lato';
+    font-family: "Lato", serif;
     font-size: 16px !important;
 }
 
 .section-3 .name-2 {
     grid-area: name-2;
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 21px !important;
     color: #dd9a00;
 }
@@ -450,20 +448,20 @@
 .section-3 .price-2 {
     grid-area: price-2;
     text-align: right;
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 21px !important;
     color: #dd9a00;
 }
 
 .section-3 .desc-2 {
     grid-area: desc-2;
-    font-family: 'Lato';
+    font-family: "Lato", serif;
     font-size: 16px !important;
 }
 
 .section-3 .name-3 {
     grid-area: name-3;
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 21px !important;
     color: #dd9a00;
 }
@@ -471,20 +469,20 @@
 .section-3 .price-3 {
     grid-area: price-3;
     text-align: right;
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 21px !important;
     color: #dd9a00;
 }
 
 .section-3 .desc-3 {
     grid-area: desc-3;
-    font-family: 'Lato';
+    font-family: "Lato", serif;
     font-size: 16px !important;
 }
 
 .section-3 .name-4 {
     grid-area: name-4;
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 21px !important;
     color: #dd9a00;
 }
@@ -492,27 +490,26 @@
 .section-3 .price-4 {
     grid-area: price-4;
     text-align: right;
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 21px !important;
     color: #dd9a00;
 }
 
 .section-3 .desc-4 {
     grid-area: desc-4;
-    font-family: 'Lato';
+    font-family: "Lato", serif;
     font-size: 16px !important;
 }
 
 .section-3 .spec {
     height: 96px;
-    background-image: url(s-3-tag.png);
+    background-image: url(s3tag.png);
     background-size: cover;
 }
 
 .section-3 [class^="desc"] {
     height: 1px;
-    background-image: url(s-3-line.png);
-    background-image: url(s-3-line.png);
+    background-image: url(s3l.png);
     background-size: cover;
 }
 
@@ -530,16 +527,15 @@
     grid-template-columns: 1fr;
     grid-template-rows: 52px 49px 246px 135px;
     grid-auto-columns: 1fr;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-auto-flow: row;
     grid-template-areas:
-		"header"
-		"separator"
-		"content"
-		"finish";
+    "header"
+    "separator"
+    "content"
+    "finish";
     font-size: 25px;
-    color: #dde1e0;
-    font-family: 'Gentium Book Basic';
+    font-family: "Gentium Book Basic", serif;
     line-height: 45px;
     text-align: center;
     padding-top: 75px;
@@ -553,7 +549,7 @@
 
 .section-4 .header {
     grid-area: header;
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 36px !important;
 }
 
@@ -566,7 +562,7 @@
 }
 
 .section-4 .finish {
-    font-family: 'Lato';
+    font-family: "Lato", serif;
     font-size: 18px;
     color: White;
     grid-area: finish;
@@ -574,7 +570,7 @@
 
 .section-4 .quote {
     position: absolute;
-    font-family: 'Georgia';
+    font-family: "Georgia", serif;
     font-size: 96px;
     line-height: 40px !important;
     color: #a1a29c;
@@ -602,17 +598,17 @@
     display: grid;
     grid-template-columns: 300px 300px 1fr;
     grid-template-rows: 55px 50px 81px 89px 252px;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-template-areas:
-		"image1 image2 header"
-		"image1 image2 separator"
-		"image1 image2 description1"
-		"image1 image2 description2"
-		"image1 image2 container-user"
+    "image1 image2 header"
+    "image1 image2 separator"
+    "image1 image2 description1"
+    "image1 image2 description2"
+    "image1 image2 container-user";
 }
 
 .section-5 .header {
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 36px !important;
     color: #dd9a00;
     width: 100%;
@@ -629,7 +625,7 @@
 .section-5 .description1 {
     text-align: center;
     grid-area: description1;
-    font-family: 'Lato';
+    font-family: "Lato", serif;
     font-size: 16px !important;
     line-height: 24px;
 }
@@ -637,7 +633,7 @@
 .section-5 .description2 {
     text-align: center;
     grid-area: description2;
-    font-family: 'Lato';
+    font-family: "Lato", serif;
     font-size: 16px !important;
     line-height: 24px;
 }
@@ -657,7 +653,7 @@
 .section-5 form .user-details span.details {
     display: block;
     font-weight: bold;
-    font-family: 'Lato';
+    font-family: "Lato", serif;
     color: #d8a21d;
     margin-bottom: 5px;
 }
@@ -666,7 +662,7 @@
 .section-5 .user-details select {
     outline: none;
     font-size: 16px;
-    font-family: 'Open Sans';
+    font-family: "Open Sans", serif;
     height: 33px;
     font-style: italic;
     padding-left: 15px;
@@ -703,15 +699,12 @@ select {
 .section-5 .button input {
     border: none;
     color: #fff;
-    font-family: 'Open Sans';
+    font-family: "Open Sans", serif;
     font-size: 16px;
     cursor: pointer;
     background: #d8a21d;
     transition: 0.25s;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 7px 60px;
 }
 
 .section-5 .button input:hover {
@@ -739,15 +732,15 @@ select {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 40px 37px 96px 20px;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-auto-flow: row;
     grid-template-areas:
-		"header-1 header-2 header-3"
-		"separator-1 separator-2 separator-3"
-		"content-1 content-2 content-3"
-		"finish-1 finish-2 finish3";
+    "header-1 header-2 header-3"
+    "separator-1 separator-2 separator-3"
+    "content-1 content-2 content-3"
+    "finish-1 finish-2 finish3";
     color: White;
-    font-family: 'Open Sans';
+    font-family: "Open Sans", serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -762,12 +755,12 @@ select {
 }
 
 .footer .container [class^="header"] {
-    font-family: 'Yeseva One';
+    font-family: "Yeseva One", serif;
     font-size: 21px !important;
 }
 
 .footer .container .bold-font {
-    font-family: 'Open Sans';
+    font-family: "Open Sans", serif;
     font-weight: 700 !important;
 }
 
