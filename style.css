@@ -1,29 +1,5 @@
 @charset "UTF-8";
 
-.section-0 .buttonBack {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto;
-    font-family: "Lato", serif;
-    font-size: 18px;
-    line-height: 18px;
-    transition: 0.25s;
-    color: white;
-    background: rgba(255, 255, 255, 0.196);
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    width: 226px;
-}
-
-.section-0 .buttonBack a {
-    color: inherit !important;
-    text-decoration: inherit !important;
-}
-
-.section-0 .buttonBack:hover {
-    background: rgba(255, 255, 255, 0.396);
-}
-
 .section-0 {
     position: relative;
 }
